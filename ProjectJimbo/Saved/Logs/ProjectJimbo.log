@@ -581,3 +581,109 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.11-04.06.56:509][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
 [2019.12.11-04.06.56:539][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
 [2019.12.11-04.06.56:561][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.12.11-04.08.27:569][741]LogSlate: Window 'About Unreal Editor' being destroyed
+[2019.12.11-04.09.14:134][804]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (46.553 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.11-04.14.59:078][125]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.20.42:145][240]LogAIModule: Creating AISystem for world TestingGrounds
+[2019.12.11-04.20.42:211][240]LogAssetEditorManager: Opening Asset editor for World /Game/RollingBP/Maps/TestingGrounds.TestingGrounds
+[2019.12.11-04.20.42:243][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.12.11-04.20.42:245][240]Cmd: MAP LOAD FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/RollingBP/Maps/TestingGrounds.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.11-04.20.42:245][240]LightingResults: New page: Lighting Build
+[2019.12.11-04.20.42:246][240]LoadErrors: New page: Loading map: TestingGrounds.umap
+[2019.12.11-04.20.42:247][240]MapCheck: New page: Map Check
+[2019.12.11-04.20.42:247][240]LightingResults: New page: Lighting Build
+[2019.12.11-04.20.42:296][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.12.11-04.20.42:361][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.11-04.20.42:385][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.12.11-04.20.42:407][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.11-04.20.42:407][240]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
+[2019.12.11-04.20.42:407][240]LogFileHelpers: Loading map 'TestingGrounds' took 0.164
+[2019.12.11-04.21.04:656][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.30.37:016][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.33.35:563][941]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.11-04.33.35:563][941]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.11-04.36.22:182][444]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Repo's/ProjectJimbo/ProjectJimbo/MayaModels/MapDesign/imports/Hoe.fbx)
+[2019.12.11-04.36.22:386][444]LogFbx: Loading FBX Scene from ../../../../../../Repo's/ProjectJimbo/ProjectJimbo/MayaModels/MapDesign/imports/Hoe.fbx
+[2019.12.11-04.36.22:400][444]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.11-04.36.23:752][444]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.12.11-04.36.23:989][444]LogMaterial: Display: Missing cached shader map for material WoodHoe, compiling. 
+[2019.12.11-04.36.24:070][444]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.12.11-04.36.24:092][444]LogMaterial: Display: Missing cached shader map for material HoeMetal, compiling. 
+[2019.12.11-04.36.24:108][444]LogFbx: Display: Triangulating static mesh pCylinder1
+[2019.12.11-04.36.24:141][444]LogStaticMesh: Building static mesh Hoe...
+[2019.12.11-04.36.24:229][444]LogStaticMesh: Built static mesh [0.09s] /Game/Imports/Hoe.Hoe
+[2019.12.11-04.36.24:286][444]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.12.11-04.36.24:511][445]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (21.407 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.11-04.36.27:356][581]LogSlate: Window 'Message Log' being destroyed
+[2019.12.11-04.36.27:363][581]LogSlate: Window 'Message Log' being destroyed
+[2019.12.11-04.36.41:584][288]LogMetaData: Removing '/Game/Imports/Hoe/Hoe.Hoe' ref from Metadata '/Game/Imports/Hoe.PackageMetaData'
+[2019.12.11-04.36.41:752][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Hoe/WoodHoe" FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/WoodHoe.uasset" SILENT=true
+[2019.12.11-04.36.41:770][288]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/WoodHoe4A6E4843435EACB18164DAA661416460.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/WoodHoe.uasset'
+[2019.12.11-04.36.41:819][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Hoe/Hoe" FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/Hoe.uasset" SILENT=true
+[2019.12.11-04.36.41:837][288]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/HoeC7C705EE47D65C49CF4622B29DDC8349.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/Hoe.uasset'
+[2019.12.11-04.36.41:886][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Hoe/HoeMetal" FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/HoeMetal.uasset" SILENT=true
+[2019.12.11-04.36.41:902][288]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/HoeMetalAD3DF6A847CCDE1EF08E0CBCE929D8CA.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/HoeMetal.uasset'
+[2019.12.11-04.36.41:957][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Hoe/lambert1" FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/lambert1.uasset" SILENT=true
+[2019.12.11-04.36.41:973][288]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/lambert17AFAC0494A124C0E08DC5D8BE6EAD040.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/lambert1.uasset'
+[2019.12.11-04.36.42:241][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.12.11-04.36.42:261][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.12.11-04.36.42:285][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.12.11-04.36.42:305][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.12.11-04.36.42:336][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.12.11-04.36.42:358][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.12.11-04.36.44:486][397]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Imports/Hoe/Hoe.Hoe
+[2019.12.11-04.36.45:967][397]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2019.12.11-04.36.45:967][397]LogSlate: Took 0.022896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.11-04.36.53:828][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.36.56:699][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.36.56:989][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imports/Hoe/Hoe" FILE="../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/Hoe.uasset" SILENT=true
+[2019.12.11-04.36.57:011][714]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/Hoe822803CF4A61259436862383BB22FBB1.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Content/Imports/Hoe/Hoe.uasset'
+[2019.12.11-04.37.02:421][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.37.03:174][861]LogSlate: Window 'Hoe' being destroyed
+[2019.12.11-04.37.09:459][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.37.09:775][138]LogActorFactory: Actor Factory created Hoe
+[2019.12.11-04.37.10:355][164]LogActorFactory: Actor Factory created Hoe
+[2019.12.11-04.37.15:831][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.37.28:569][799]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.11-04.37.47:569][604]Cmd: TRANSACTION UNDO
+[2019.12.11-04.37.47:569][604]LogEditorTransaction: Undo Rotate Actors
+[2019.12.11-04.37.48:638][634]Cmd: TRANSACTION UNDO
+[2019.12.11-04.37.48:639][634]LogEditorTransaction: Undo Rotate Actors
+[2019.12.11-04.37.56:950][978]Cmd: TRANSACTION UNDO
+[2019.12.11-04.37.56:950][978]LogEditorTransaction: Undo Move Actors
+[2019.12.11-04.38.02:960][220]Cmd: TRANSACTION UNDO
+[2019.12.11-04.38.02:960][220]LogEditorTransaction: Undo Move Actors
+[2019.12.11-04.38.08:336][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.38.08:414][442]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.11-04.38.08:494][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds' with GeneratedClass '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds'
+[2019.12.11-04.38.08:515][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.11-04.38.08:541][442]PIE: New page: PIE session: TestingGrounds (12/12/2019 6:38:08 am)
+[2019.12.11-04.38.08:629][442]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_TestingGrounds
+[2019.12.11-04.38.08:642][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013311s)
+[2019.12.11-04.38.08:650][442]LogAIModule: Creating AISystem for world TestingGrounds
+[2019.12.11-04.38.08:658][442]LogPlayLevel: PIE: World Init took: (0.015289s)
+[2019.12.11-04.38.08:658][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/TestingGrounds.TestingGrounds to /Game/RollingBP/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.028944s)
+[2019.12.11-04.38.08:685][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.12.11-04.38.08:712][442]LogInit: XAudio2 using 'Headphones (Arctis 7 Game)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.11-04.38.08:743][442]LogInit: FAudioDevice initialized.
+[2019.12.11-04.38.08:795][442]LogLoad: Game class is 'RollingGameMode_C'
+[2019.12.11-04.38.08:871][442]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 60) at 2019.12.11-17.38.08
+[2019.12.11-04.38.08:903][442]LogWorld: Bringing up level for play took: 0.034097
+[2019.12.11-04.38.09:041][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.12.11-04.38.09:057][442]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_TestingGrounds 0.327
+[2019.12.11-04.38.09:058][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds' with GeneratedClass '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds'
+[2019.12.11-04.38.28:436][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds' with GeneratedClass '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds'
+[2019.12.11-04.38.28:447][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-04.38.28:496][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.11-04.38.28:497][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds' with GeneratedClass '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestingGrounds.TestingGrounds:PersistentLevel.TestingGrounds'
+[2019.12.11-04.38.28:548][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-04.38.28:553][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.12.11-04.38.28:624][575]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.12.11-04.42.33:287][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.46.23:648][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.12.11-04.46.24:286][277]LogSavePackage: Moving '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/TestingGrounds_Auto173CAA5B54F0EC3F3C8DBC68614B8810C.tmp' to '../../../../../../Repo's/ProjectJimbo/ProjectJimbo/ProjectJimbo/Saved/Autosaves/Game/RollingBP/Maps/TestingGrounds_Auto1.umap'
+[2019.12.11-04.46.24:293][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/TestingGrounds' took 0.667
+[2019.12.11-04.46.24:293][277]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.667
+[2019.12.11-05.06.12:950][589]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.712 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.11-05.14.22:046][954]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (44.971 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.12.11-05.16.28:142][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
